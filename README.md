@@ -41,8 +41,6 @@ To prepare the data for modeling:
 - Applied feature scaling for Logistic Regression  
 - Prevented data leakage by fitting transformations only on training data  
 
-
-
 ## Modeling Approach
 
 An iterative modeling approach was used:
@@ -61,8 +59,6 @@ An iterative modeling approach was used:
 - Hyperparameters adjusted to control complexity  
 - Aimed to reduce overfitting  
 - Did not significantly improve recall over the base Decision Tree  
-
-
 
 ## Evaluation
 
@@ -94,8 +90,6 @@ The Decision Tree model outperformed the Logistic Regression baseline, particula
 - Hyperparameter tuning did not significantly improve performance  
 
 The Decision Tree model provides the best balance between accuracy and recall, making it the most suitable model for this business problem.
-
-
 
 ## Business Recommendations
 
@@ -131,7 +125,7 @@ By focusing on early identification of churners, the company can reduce customer
 
 ## Repository Structure
 
-- `notebook.ipynb` → Full analysis and modeling  
+- 'SyrialTel_Churn_Prediction.ipynb' → Full analysis and modeling  
 - `presentation.pdf` → Non-technical presentation  
 - `README.md` → Project overview  
 
