@@ -18,7 +18,7 @@ A key focus is minimizing missed churners, as failing to identify these customer
 
 The dataset contains customer-level information, including:
 
-- Account details (e.g., account length, service plans)
+- Account details (account length, service plans)
 - Usage patterns (day, evening, night, and international calls)
 - Billing information (charges across different periods)
 - Customer service interactions
