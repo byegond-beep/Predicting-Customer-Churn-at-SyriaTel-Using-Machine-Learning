@@ -18,7 +18,7 @@ A key focus is minimizing missed churners, as failing to identify these customer
 
 The dataset contains customer-level information, including:
 
-- Account details (e.g., account length, service plans)
+- Account details (account length, service plans)
 - Usage patterns (day, evening, night, and international calls)
 - Billing information (charges across different periods)
 - Customer service interactions
@@ -41,8 +41,6 @@ To prepare the data for modeling:
 - Applied feature scaling for Logistic Regression  
 - Prevented data leakage by fitting transformations only on training data  
 
-
-
 ## Modeling Approach
 
 An iterative modeling approach was used:
@@ -61,8 +59,6 @@ An iterative modeling approach was used:
 - Hyperparameters adjusted to control complexity  
 - Aimed to reduce overfitting  
 - Did not significantly improve recall over the base Decision Tree  
-
-
 
 ## Evaluation
 
@@ -94,8 +90,6 @@ The Decision Tree model outperformed the Logistic Regression baseline, particula
 - Hyperparameter tuning did not significantly improve performance  
 
 The Decision Tree model provides the best balance between accuracy and recall, making it the most suitable model for this business problem.
-
-
 
 ## Business Recommendations
 
