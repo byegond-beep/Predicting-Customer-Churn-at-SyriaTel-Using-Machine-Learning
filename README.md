@@ -125,7 +125,7 @@ By focusing on early identification of churners, the company can reduce customer
 
 ## Repository Structure
 
-- `notebook.ipynb` → Full analysis and modeling  
+- 'SyrialTel_Churn_Prediction.ipynb' → Full analysis and modeling  
 - `presentation.pdf` → Non-technical presentation  
 - `README.md` → Project overview  
 
