@@ -56,7 +56,8 @@ Models were evaluated using:
 - Accuracy  
 - Precision  
 - Recall (primary metric)  
-- F1-score  
+- F1-score
+- Confusion Matrix
 
 **Why Recall Matters:**  
 Missing a churner means losing a customer without intervention, directly impacting revenue.
